@@ -8,5 +8,6 @@ public interface UserService {
 	
 	int save(User user);
 	List<User> getUsers();
+	User getUser(Integer id);
 	
 }
